@@ -8,6 +8,7 @@ RUN apk update && \
         bash \
         zsh \
         git \
+        python \
         make \
         gcc \
         g++ \
