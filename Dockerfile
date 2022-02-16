@@ -14,6 +14,7 @@ RUN apk update && \
         g++ \
         linux-headers \
         udev \
+        openssh \
     && rm -rf /var/cache/apk/*
 
 RUN deluser --remove-home node
